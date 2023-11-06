@@ -4,4 +4,5 @@ git merge
 git remote -v
 git branch
 git stage
-git 
+git stash
+git stash list
