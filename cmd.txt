@@ -4,3 +4,4 @@ git merge
 git remote -v
 git branch
 git stage
+git 
