@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grad.css"></style>
+</head>
+<body background="">
+    <div class="rgbBox">
+        <div class="heading">
+            RGB Scroll Bar
+        </div>
+        <div class="container">
+            <div class="barContainer">
+                <p>R : <output id="value1">0</output></p>
+                <div class="bar">
+                    <span>0</span>
+                    <input id="pi_input1" class="customEdit" type="range" min=0 max=255>
+                    <span>255</span>
+                </div>
+            </div>
+            <div class="barContainer">
+                <p>G : <output id="value2">0</output></p>
+                <div class="bar">
+                    <span>0</span>
+                    <input id="pi_input2" class="customEdit" type="range" min=0 max=255>
+                    <span>255</span>
+                </div>
+            </div>
+            <div class="barContainer">
+                <p>B : <output id="value3">0</output></p>
+                <div class="bar">
+                    <span>0</span>
+                    <input id="pi_input3" class="customEdit" type="range" min=0 max=255>
+                    <span>255</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="grad.js"></script>
+</body>
+</html>

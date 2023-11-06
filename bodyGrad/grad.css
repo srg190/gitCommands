@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: 
+        radial-gradient(red, yellow, green) left top, 
+        linear-gradient(to right, red, yellow) right top;
+    background-size: 50% 100%, 50% 100%; 
+    background-repeat: no-repeat; 
+    border: 20px solid;
+    border-image: radial-gradient(rgb(15, 52, 188), rgb(18, 157, 10), rgb(108, 2, 85));
+    border-image-slice: 1;
+}
+.rgbBox{
+    width: 12rem;
+    height: 16rem;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    outline: 0.1rem;
+    position: sticky;
+    left: 75%;
+    top: 25%;
+    border: 20px solid;
+    border-image: radial-gradient(rgb(15, 52, 188), rgb(18, 157, 10), rgb(108, 2, 85));
+    border-image-slice: 1;
+}
+
+.heading{
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    background-color: #07114f;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-0.5px);
+}
+.heading:hover{
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border: 1px solid #ddd ;
+}
+.container{
+    margin: 0.5rem;
+}
+
+.barContainer > p {
+    text-align: center;
+    margin-bottom: 0.1rem;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+}
+

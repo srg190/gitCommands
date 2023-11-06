@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    height: 100vh;
+    width: 100vw;
+} */
+.px{
+    background-color: lightblue;
+    font-size: 30px;
+}
+.rem{
+    background-color: pink;
+    height: 1.5rem;
+}
+.vh-vw {
+    background-color: aqua;
+    width: 10vw;
+    height: 10vh;
+}
+.parent {
+    background-color: lightgray;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.child1 {
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.child2 {
+    background-color: lightsalmon;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+#hj{
+    background-color: green;
+}
+#hj{
+    background-color: rgb(81, 0, 128);
+}
+
+.random{
+    background-color: brown;
+}
