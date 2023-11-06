@@ -1,0 +1,6 @@
+git push
+git pull
+git merge
+git remote -v
+git branch
+git stage
